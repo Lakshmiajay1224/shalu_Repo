@@ -21,6 +21,8 @@ public class productInfoPage {
 	@FindBy(xpath="//span[@class='lvtHeaderText']")
 	private WebElement headerInfo;
 	
+	@FindBy(xpath="//span[@class='lvtHeaderText']")
+	private WebElement headerInffdbgd;
 	@FindBy(id="dtlview_Sales Start Date")
 	private WebElement actstartDate;
 	

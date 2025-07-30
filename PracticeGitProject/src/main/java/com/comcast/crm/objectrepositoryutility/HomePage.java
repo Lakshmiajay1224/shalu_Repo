@@ -15,7 +15,8 @@ public class HomePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-      
+	@FindBy(xpath="//select[@id='qjhndfjsf']")
+	private WebElement QukLnk1;
 	
 	@FindBy(xpath="//select[@id='qccombo']")
 	private WebElement QukLnk;

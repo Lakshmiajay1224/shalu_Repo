@@ -27,6 +27,8 @@ public class HomePage {
 	@FindBy(linkText = "Calendar")
 	private WebElement dcvslLnk;
 
+	@FindBy(linkText = "Calendar")
+	private WebElement dcvslndsv;
 
 	@FindBy(linkText = "Calendar")
 	private WebElement calLnk;

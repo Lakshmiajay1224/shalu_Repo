@@ -35,6 +35,8 @@ public class productInfoPage {
 		return actstartDate;
 	}
 
+	@FindBy(id="dtlvie")
+	private WebElement actstare;
 	public WebElement getEndDate() {
 		return actendDate;
 	}

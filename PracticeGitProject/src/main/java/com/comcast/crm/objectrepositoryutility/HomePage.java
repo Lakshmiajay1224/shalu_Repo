@@ -20,7 +20,6 @@ public class HomePage {
 	
 	@FindBy(xpath="//select[@id='qccombo']")
 	private WebElement QukLnk;
-	
 	public WebElement getQukLnk() {
 		return QukLnk;
 	}

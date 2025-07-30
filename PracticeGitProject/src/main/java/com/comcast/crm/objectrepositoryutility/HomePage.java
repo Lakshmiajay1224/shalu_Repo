@@ -24,6 +24,8 @@ public class HomePage {
 	public WebElement getQukLnk() {
 		return QukLnk;
 	}
+	@FindBy(linkText = "Calendar")
+	private WebElement dcvslLnk;
 
 
 	@FindBy(linkText = "Calendar")
